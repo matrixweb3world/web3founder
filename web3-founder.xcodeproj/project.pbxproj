@@ -553,7 +553,7 @@
 				D7EAC08E2D58E8D80085A7DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D7EAC08F2D58E8D80085A7DB /* Build configuration list for PBXNativeTarget "web3-founder" */ = {
 			isa = XCConfigurationList;
@@ -562,7 +562,7 @@
 				D7EAC0912D58E8D80085A7DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D7EAC0922D58E8D80085A7DB /* Build configuration list for PBXNativeTarget "web3-founderTests" */ = {
 			isa = XCConfigurationList;
@@ -571,7 +571,7 @@
 				D7EAC0942D58E8D80085A7DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		D7EAC0952D58E8D80085A7DB /* Build configuration list for PBXNativeTarget "web3-founderUITests" */ = {
 			isa = XCConfigurationList;
@@ -580,7 +580,7 @@
 				D7EAC0972D58E8D80085A7DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

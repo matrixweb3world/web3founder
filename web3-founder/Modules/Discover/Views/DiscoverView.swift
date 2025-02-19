@@ -1,8 +1,17 @@
 import SwiftUI
 
+
 struct DiscoverView: View {
     var body: some View {
-        Text("AI资讯模块开发中...")
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                StockPriceView()
+                MySpotPositionView()
+                MarketStatsView()
+                ExpertAdviceView()
+            }
+            .padding()
             .navigationTitle("发现")
+        }
     }
-} 
+}

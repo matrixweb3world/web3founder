@@ -9,6 +9,15 @@
         "cwd": "${workspaceFolder}",
         "program": "${workspaceFolder}/.build/debug/swift-executable",
         "preLaunchTask": "swift: Build Debug swift-executable"
+      },
+      {
+        "name": "Run iOS App",
+        "type": "lldb",
+        "request": "launch",
+        "program": "${workspaceFolder}/build/Debug-iphonesimulator/web3-founder.app/web3-founder",
+        "args": [],
+        "cwd": "${workspaceFolder}",
+        "preLaunchTask": "swift: Build Debug web3-founder"
       }
     ]
   }

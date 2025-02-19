@@ -12,19 +12,11 @@ let package = Package(
             name: "Web3Founder",
             targets: ["Web3Founder"]),
     ],
-    dependencies: [
-        // 在这里添加您的依赖项，例如：
-        // .package(url: "https://github.com/your-dependency.git", from: "1.0.0"),
-        .package(url: "https://github.com/web3swift-team/web3swift.git", from: "3.0.0")
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "Web3Founder",
-            dependencies: [
-                // 在这里添加您的目标依赖项，例如：
-                // "YourDependency"
-                "web3swift"
-            ],
+            dependencies: [],
             path: "web3-founder"
         ),
         .testTarget(
