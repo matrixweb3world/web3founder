@@ -1,4 +1,6 @@
 import SwiftUI
+// 如果 AuthViewModel 在一个单独的模块中，请确保导入该模块
+// import YourModuleName
 
 @main
 struct CryptoAppApp: App {

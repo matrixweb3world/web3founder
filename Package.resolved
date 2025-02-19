@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "BigInt",
+        "repositoryURL": "https://github.com/attaswift/BigInt.git",
+        "state": {
+          "branch": null,
+          "revision": "793a7fac0bfc318e85994bf6900652e827aef33e",
+          "version": "5.4.1"
+        }
+      },
+      {
+        "package": "CryptoSwift",
+        "repositoryURL": "https://github.com/krzyzanowskim/CryptoSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "729e01bc9b9dab466ac85f21fb9ee2bc1c61b258",
+          "version": "1.8.4"
+        }
+      },
+      {
+        "package": "secp256k1",
+        "repositoryURL": "https://github.com/GigaBitcoin/secp256k1.swift",
+        "state": {
+          "branch": null,
+          "revision": "48fb20fce4ca3aad89180448a127d5bc16f0e44c",
+          "version": "0.10.0"
+        }
+      },
+      {
+        "package": "Web3swift",
+        "repositoryURL": "https://github.com/web3swift-team/web3swift.git",
+        "state": {
+          "branch": null,
+          "revision": "119d179305788687e80083671698b3f08c970e7f",
+          "version": "3.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
