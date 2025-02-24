@@ -1,4 +1,4 @@
-// swift-tools-version: 6.0
+// swift-tools-version: 5.5
 
 import PackageDescription
 
@@ -12,7 +12,9 @@ let package = Package(
             name: "Web3Founder",
             targets: ["Web3Founder"]),
     ],
-    dependencies: [],
+    dependencies: [
+        // 移除 SwiftUICharts 依赖
+    ],
     targets: [
         .target(
             name: "Web3Founder",

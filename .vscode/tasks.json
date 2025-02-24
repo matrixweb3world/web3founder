@@ -5,7 +5,7 @@
         "type": "swift",
         "label": "Swift Build All - Release",
         "detail": "swift build --build-tests",
-        "args": ["build", "--build-tests", "-c", "release"],
+        "args": ["build", "--build-tests", "-c", "debug"],
         "env": {},
         "cwd": "${workspaceFolder}",
         "group": "build"
