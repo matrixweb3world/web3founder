@@ -1,0 +1,21 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "swift.swiftFormat.enable": true,
+        "swift.swiftlint.enable": true,
+        "swift.path.swift_driver_bin": "/usr/bin/swift",
+        "swift.disableAutoResolve": false,
+        "editor.formatOnSave": true,
+        "swift.enableSourceKitLSP": true
+    },
+    "extensions": {
+        "recommendations": [
+            "swift.swift",
+            "vadimcn.vscode-lldb"
+        ]
+    }
+}

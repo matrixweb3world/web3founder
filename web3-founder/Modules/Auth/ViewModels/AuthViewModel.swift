@@ -2,14 +2,16 @@ import Combine
 import SwiftUI
 
 class AuthViewModel: ObservableObject {
+    // 创建单例实例
+    // 创建单例实例
     static let shared = AuthViewModel()
-    
+
     @Published var isAuthenticated = false
     @Published var isLoading = false
     @Published var errorMessage: String?
-    
+
     private let authService = UserService.shared
-    
+
     func login(email: String, password: String) {
         isLoading = true
         authService.login(email: email, password: password) { [weak self] result in
@@ -23,8 +25,8 @@ class AuthViewModel: ObservableObject {
             }
         }
     }
-    
+
     func register(email: String, password: String) {
         // 注册逻辑
     }
-} 
+}
