@@ -3,7 +3,6 @@ import SwiftUI
 
 class AuthViewModel: ObservableObject {
     // 创建单例实例
-    // 创建单例实例
     static let shared = AuthViewModel()
 
     @Published var isAuthenticated = false
